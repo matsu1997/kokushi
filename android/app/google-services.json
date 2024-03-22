@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "854167578796",
+    "project_id": "shinkyu-ee69e",
+    "storage_bucket": "shinkyu-ee69e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854167578796:android:07bc57493787037fd21709",
+        "android_client_info": {
+          "package_name": "com.kokushi.kokushi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854167578796-vusso8435pgam9hlfit7thd8vuuata1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE1lah_sgqY3Uxxdh3D1sZRSXywpm3Ijs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854167578796-vusso8435pgam9hlfit7thd8vuuata1o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854167578796-pntjt37llea498a3mjfob5mtkpf7h235.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kokushi.kokushi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
