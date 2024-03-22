@@ -1,0 +1,91 @@
+name: kokushi
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.70.0+1
+
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+flutter_native_splash:
+  image: "lib/assets/icon.PNG"
+  color: "4DD0E1"
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_local_notifications: ^12.0.0
+  intl: ^0.18.1
+  after_layout: ^1.0.7+2
+  cupertino_icons: ^1.0.2
+  flutter_picker: ^2.0.1
+  firebase_core: ^2.27.0
+  firebase_analytics: ^10.3.0
+  firebase_auth: ^4.2.2
+  cloud_firestore: ^4.6.0
+  firebase_storage: ^11.1.2
+  photo_view: ^0.14.0
+  path_provider: ^2.0.1
+  image_picker: ^0.8.7+4
+
+  url_launcher: ^6.1.5
+  flutter_email_sender: ^5.1.0
+  in_app_review: ^2.0.4
+  shared_preferences: ^2.0.15
+    #  google_mobile_ads: ^1.3.0
+  flutter_ringtone_player: ^3.2.0
+  share: ^2.0.4
+  flutter_launcher_icons: ^0.11.0
+  syncfusion_flutter_calendar: ^21.2.3
+  table_calendar: ^3.0.7
+  numberpicker: ^2.1.2
+  infinite_listview: ^1.1.0
+  number_picker_dialog: ^0.0.1
+  mobile_number_picker: ^0.0.1+5
+  awesome_number_picker: ^0.0.4
+  flutter_number_picker: ^1.0.4
+  flutter_background_service: ^3.0.1
+  flutter_tts: ^3.8.3
+  scroll_to_index: ^3.0.1
+  audio_session: ^0.1.16
+  just_audio_background: ^0.0.1-beta.10
+  app_tracking_transparency: ^2.0.4
+  just_audio: ^0.9.34
+  flare_splash_screen: ^4.0.0
+  device_info_plus: ^4.0.0
+  apple_product_name: ^1.2.0
+  syncfusion_flutter_charts: ^21.2.10
+  fl_chart: ^0.63.0
+  graphic: ^0.6.2
+  flutter_app_badger: ^1.5.0
+  card_swiper: ^3.0.1
+  webview_flutter: ^4.5.0
+#  google_mlkit_text_recognition: ^0.11.0
+#  firebase_ml_model_downloader: ^0.2.4+16
+#  mlkit_scanner: ^0.5.3
+#  cloud_functions: ^4.6.8
+#  dio: ^5.4.1
+#  camera: ^0.10.5+9
+#  permission_handler: ^11.3.0
+#  google_ml_kit: ^0.16.3
+#  edge_detection: ^1.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'lib/assets/icon.PNG'
